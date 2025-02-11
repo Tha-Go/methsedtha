@@ -17,8 +17,7 @@ body {
     height: 100%;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 30px;
-    /* backdrop-filter: blur(20px); */
-    padding: 30px;
+    
 }
 
 
@@ -31,6 +30,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: rgba(12, 12, 12, 0.355);
     z-index: 100;
 }
 
@@ -58,7 +58,7 @@ header {
 
 
 #home {
-    display: flex;
+   display: flex; 
     align-items: center;
     height: 100vh;
     padding: 50px 5%;
@@ -66,6 +66,7 @@ header {
 }
 
 .home-detail h1 {
+    display: inline-block; 
     font-size: 55px;
     font-weight: bold;
     line-height: 1.2;
@@ -267,7 +268,7 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
-    margin-top: 1200px;
+    margin-top: 370%;
     border-radius: 10px;
 }
 
